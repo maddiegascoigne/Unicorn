@@ -1,5 +1,9 @@
 body {
   padding-top: 20px;
+  background: url("mainpagebackground.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat:no-repeat;
 }
 
 .footer {
@@ -9,14 +13,30 @@ body {
   border-top: 1px solid #eee;
 }
 
+.background {
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
   background-color: transparent;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  background-color: white;
+  color: black;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
@@ -27,8 +47,6 @@ body {
   border-radius: 5px;
 }
 .nav-justified > li > a {
-  padding-top: 15px;
-  padding-bottom: 15px;
   margin-bottom: 0;
   font-weight: bold;
   color: #777;
