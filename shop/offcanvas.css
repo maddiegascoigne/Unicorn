@@ -1,59 +1,29 @@
-/*
- * Style tweaks
- * --------------------------------------------------
- */
-html,
-body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
-  padding-top: 70px;
-}
-footer {
-  padding: 30px 0;
+.productbox {
+    background-color:#ffffff;
+	padding:10px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0 8px 6px -6px  #999;
+	   -moz-box-shadow: 0 8px 6px -6px  #999;
+	        box-shadow: 0 8px 6px -6px #999;
 }
 
-/*
- * Off Canvas
- * --------------------------------------------------
- */
-@media screen and (max-width: 767px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all .25s ease-out;
-         -o-transition: all .25s ease-out;
-            transition: all .25s ease-out;
-  }
+.producttitle {
+    font-weight:bold;
+	padding:5px 0 5px 0;
+}
 
-  .row-offcanvas-right {
-    right: 0;
-  }
+.productprice {
+	border-top:1px solid #dadada;
+	padding-top:5px;
+}
 
-  .row-offcanvas-left {
-    left: 0;
-  }
+.pricetext {
+	font-weight:bold;
+	font-size:1.4em;
 
-  .row-offcanvas-right
-  .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
-  }
+}
 
-  .row-offcanvas-left
-  .sidebar-offcanvas {
-    left: -50%; /* 6 columns */
-  }
+.products {
+  text-align: center;
 
-  .row-offcanvas-right.active {
-    right: 50%; /* 6 columns */
-  }
-
-  .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
-  }
-
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 50%; /* 6 columns */
-  }
 }
